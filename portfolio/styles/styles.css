@@ -1,0 +1,63 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    margin: 0;
+    padding-top: 30px;
+}
+header{
+    background-color: aqua;
+    color:white;  
+    text-align: center;
+}
+header nav{
+    background-color: black;
+}
+header nav ul{
+    display : flex;
+    list-style-type: none;
+    margin:0;
+}
+li{
+    margin:10px;
+}
+
+img{
+    size: 100%;
+}
+main{
+    display: flex;
+    margin: 0;
+}
+
+.description{
+    font-weight: bold;
+}
+.about-me{
+    width: 40%;
+    background-color: bisque;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.others{
+    margin-left : 10px;
+}
+
+footer{
+    text-align: center;
+    background-color:aqua;
+    padding: 10px;
+}
+@media screen and (max-width: 700px){
+    main{
+        
+    }
+    .about-me{
+        width: 100%;
+    }
+    
+}
